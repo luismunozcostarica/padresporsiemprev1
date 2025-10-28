@@ -1,0 +1,70 @@
+
+
+.card-service-icon-1{
+    width: 100%;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    border: 1px solid #e2e8f0;
+    background-color:white ;
+}
+
+.card-service-icon-1 svg{
+  width: 50px;
+}
+
+
+.card-service-icon-1 h3{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+
+.card-service-icon-1 svg{
+
+  color: var(--color-primary);
+}
+
+
+.card-service-icon-1 p{
+  margin-bottom: 10px;
+}
+
+
+.link_icon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  gap: 0px;
+  color: var(--color-primary);
+}
+
+
+.link_icon svg{
+  width: 20px;
+  margin-left: 5px;
+}
+
+
+.card-service-icon-1 a{
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.card-service-icon-1 a:hover{
+  text-decoration: underline;
+  color: var(--color-primary-hover);
+
+}
+
+
+@media (min-width: 1023px) {
+
+    .card-service-icon-1{
+      width: 350px;
+  }
+
+
+}

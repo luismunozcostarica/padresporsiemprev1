@@ -1,0 +1,144 @@
+#section-servicio-header-1 {
+    padding-top: 25px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+
+
+@media (min-width: 1023px) {
+    #section-servicio-header-1 {
+        padding-top: 70px;
+        padding-bottom: 90px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-bottom: 1px solid #eee;
+
+    }
+}
+
+
+
+.servicio-header-container{
+    max-width: 100%;
+    background-color: blueviolet;
+    background-color: transparent;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1023px) {
+.servicio-header-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+}
+
+
+.servicio-header-left-image{
+    width: 100%;
+    background-color: bisque;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+   
+}
+
+
+@media (min-width: 1023px) {
+.servicio-header-left-image{
+    width: 30%;
+
+}
+
+}
+
+.servicio-header-left-image svg{
+    width: 50%;
+    margin-bottom: 20px;
+    
+
+}
+
+@media (min-width: 1023px) {
+.servicio-header-left-image svg{
+    width: 60%;
+    margin-bottom: 0px;
+}
+
+}
+
+
+
+.servicio-header-right-content{
+    width: 100%;
+
+}
+
+.servicio-header-right-content .p-lead{
+    font-size: 24px;
+    text-align: center;
+}
+
+
+@media (min-width: 1023px) {
+    .servicio-header-right-content .p-lead{
+        line-height: 1.5;
+        text-align: left;
+    }
+}
+
+
+.servicio-header-right-content .cta-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+@media (min-width: 1023px) {
+    .servicio-header-right-content .cta-group{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-top: 30px;
+    }
+
+}
+
+
+
+@media (min-width: 1023px) {
+    .servicio-header-right-content{
+        width: 70%;
+  
+        padding-left: 20px;
+    }
+}
+
+
+.servicio-header-right-content h1{
+    margin-bottom: 10px;
+    line-height: 1.3;
+
+}
+
+
+@media (min-width: 1023px) {
+.servicio-header-right-content h1{
+
+    text-align: left;
+    margin-bottom: 10px;
+}
+}
+

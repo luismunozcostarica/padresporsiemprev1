@@ -1,0 +1,26 @@
+#section-feature-1 {
+    padding-top: 75px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#section-feature-1 .p-lead{
+    max-width: 1000px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+
+#section-feature-1 h1{
+    max-width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+#section-feature-1 .feature-container .feature-1{
+    margin-bottom: 40px;
+    margin-left: 0px;
+}

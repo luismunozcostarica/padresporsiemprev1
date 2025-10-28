@@ -1,0 +1,41 @@
+#section-cta-banner-center-1 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (min-width: 1024px) {
+#section-cta-banner-center-1 {
+    padding-top: 60px;
+    padding-bottom: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
+
+
+#section-cta-banner-center-1 .p-lead{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+
+@media (min-width: 1024px) {
+#section-cta-banner-center-1 .p-lead{
+    margin-top: 20px;
+    font-size: 24px;
+}
+}
+
+
+@media (min-width: 1024px) {
+    #section-cta-banner-center-1 h2{
+
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 42px;
+    }
+}

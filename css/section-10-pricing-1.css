@@ -1,0 +1,45 @@
+#section-pricing-1 {
+    padding-top: 50px;
+    padding-bottom: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+@media (min-width: 1023px) {
+#section-pricing-1 {
+    padding-top: 75px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid #eee;
+}
+}
+
+
+#section-pricing-1 .p-lead{
+    max-width: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 1023px) {
+#section-pricing-1 .p-lead{
+    max-width: 1000px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+}
+
+
+
+#section-pricing-1 h2{
+    max-width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+#section-pricing-1 .pricing-container article,.pricing-box-1{
+    margin-bottom: 0px;
+}

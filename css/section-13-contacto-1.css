@@ -1,0 +1,88 @@
+#section-contacto-1 {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+#section-contacto-1 .container{
+
+    max-width: 900px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    line-height: 1.7;
+
+    text-align: left;
+
+}
+
+#section-contacto-1 .p-lead{
+
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 1.7;
+    text-align: center;
+
+}
+
+#section-contacto-1 p{
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+#section-contacto-1 h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+@media (min-width: 1024px) {
+
+#section-contacto-1 {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+
+
+
+#section-contacto-1 .p-lead{
+
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    line-height: 1.7;
+    text-align: center;
+
+}
+
+
+    #section-contacto-1 h1{
+    margin-bottom: 10px;
+
+    font-size: 48px;
+        text-align: center;
+    }
+
+    #section-contacto-1 h2{
+    max-width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 32px;
+        text-align: center;
+    }
+
+
+}

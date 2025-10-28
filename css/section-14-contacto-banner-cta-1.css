@@ -1,0 +1,58 @@
+#section-14-contacto-banner-cta-1 {
+    padding-top: 50px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#section-14-contacto-banner-cta-1 .container{
+    max-width: 900px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 1.7;
+
+    text-align: left;
+
+}
+
+#section-14-contacto-banner-cta-1 p{
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+#section-14-contacto-banner-cta-1 .p-lead{
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+#section-14-contacto-banner-cta-1  h2{
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align:center;
+    color: aliceblue;
+}
+
+
+@media (min-width: 1024px) {
+
+
+
+    #section-14-contacto-banner-cta-1  h2{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 32px;
+    }
+
+
+}

@@ -1,0 +1,212 @@
+.pricing-container{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    background-color: #bdf0a8;
+    background-color: transparent;
+    gap: 40px;
+    margin: 0 auto;
+    padding: 0rem;
+    max-width: 1200px;
+}
+
+
+@media (min-width: 1023px) {
+    .pricing-container{
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        flex-direction:row;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(10, 201, 96);
+        background-color: transparent;
+    }
+}
+
+
+.pricing-card-1{
+    background-color: #fff;
+    width: 100%;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    border: 1px solid #e2e8f0;
+}
+
+
+.pricing-card-1-featured{
+    background-color: #fff;
+    width: 100%;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    background-color: var(--color-primary); 
+}
+
+
+.pricing-card--featured .pricing-button {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+}
+
+
+@media (min-width: 1023px) {
+    .pricing-card-1{
+        width: 450px;
+        padding: 40px;
+    }
+
+
+    .pricing-card-1-featured {
+        width: 450px;
+        border-radius: 16px;
+        padding: 40px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+        border: 2px solid var(--color-primary);
+     
+    }
+}
+
+
+.pricing-plan-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+}
+
+
+.pricing-plan-name-featured {
+    font-size: 1.25rem;
+    font-weight:bold;
+    margin-bottom: 1rem;
+    color: var(--color-white);
+}
+
+
+.pricing-price .price-amount{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #111;
+}
+
+
+.pricing-price .price-amount-featured{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--color-white);
+}
+
+
+.pricing-price .price-interval {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6b7280;
+}
+
+.pricing-price .price-interval-featured {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--color-white);
+}
+
+
+.pricing-description {
+    font-size: 1rem;
+    color: #6b7280;
+    margin-bottom: 2rem;
+}
+
+.pricing-description-featured {
+    font-size: 1rem;
+    color: var(--color-white);
+    margin-bottom: 2rem;
+}
+
+
+.pricing-features {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.pricing-features-featured {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+
+.pricing-features svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 15px;
+    fill: #6366f1;
+}
+
+
+.pricing-features li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #6b7280;
+}
+
+.pricing-features-featured svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 15px;
+    fill: var(--color-white);
+}
+
+.pricing-features-featured li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: var(--color-white);
+
+}
+
+
+.pricing-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+
+.pricing-button--primary {
+    background-color: var(--color-primary);
+    color: white;
+    border: 1px solid var(--color-white);
+}
+
+
+.pricing-button--secondary {
+    background-color: transparent;
+    color: var(--color-primary);;
+    border: 1px solid var(--color-primary);
+}
+
+
+.pricing-card--featured .pricing-button {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+}

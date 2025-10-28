@@ -1,0 +1,66 @@
+.container-feature-left-image-1 {
+    margin: 0 auto;
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (min-width: 1024px) {
+    .container-feature-left-image-1 {
+        background-color: tomato;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+.right-content{
+    background-color: blueviolet;
+    background-color: transparent;
+    width: 100%;
+}
+
+
+@media (min-width: 1024px) { /* lg */
+    .right-content{
+        background-color: rgb(109, 82, 134);
+        background-color: transparent;
+        width: 60%;
+    }
+}
+
+
+.feature-left-image-mobile {
+    background-color: coral;
+    background-color: transparent;
+    display: block;
+    width: 100%;
+}
+
+
+@media (min-width: 1024px) {
+    .feature-left-image-mobile {
+        display: none;
+    }
+}
+
+
+.feature-left-image-desktop {
+    display: none;
+    background-color: aquamarine;
+    background-color: transparent;
+}
+
+
+@media (min-width: 1024px) {
+    .feature-left-image-desktop {
+        display: block;
+        width: 40%;
+        margin-right: 50px;
+    }
+}

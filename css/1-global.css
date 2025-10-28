@@ -1,0 +1,67 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  color: #111;
+  background-color: #fff;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+:root {
+    --color-dark: #333;
+    --color-primary: #0285a0;
+    --color-primary-hover: #2677e8;
+
+    --color-white: #fff;
+
+    --color-bg-light-gray-50: #fbfaf9;
+    --color-bg-light-gray-400: #dcdee0;
+    --color-bg-light-gray-500: #a3a7ad;
+    --color-bg-light-gray-600: #6b7280;
+    --color-bg-light-green-100: #daebe5;
+
+    
+
+    
+    --color-bg-light-blue-50: #0285a0;
+    --color-bg-light-yellow-50: #fef9c3;
+}
+
+.bg-light-blue-50 {
+    background-color: var(--color-bg-light-blue-50);
+}
+
+.bg-light-gray-50 {
+    background-color: var(--color-bg-light-gray-50);
+}
+
+.bg-light-yellow-50 {
+    background-color: var(--color-bg-light-yellow-50);
+}
+
+.bg-green-100 {
+    background-color: var(--color-bg-light-green-100);
+}

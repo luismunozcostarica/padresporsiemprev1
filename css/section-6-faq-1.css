@@ -1,0 +1,66 @@
+#section-faq-1 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+@media (min-width:600px) and (max-width:1023px) {
+    #section-faq-1{
+        margin: 0;
+        padding-left: 100px;
+        padding-right: 100px;
+        background-color: lightpink;
+        background-color: transparent;
+    }
+}
+
+
+#section-faq-1 .container{
+    width: 100%;
+}
+
+
+@media (min-width: 1023px) {
+    #section-faq-1 .container{
+        max-width: 900px;
+        background-color: lightseagreen;
+        background-color: transparent;
+        margin: 0 auto;
+    }
+}
+
+
+#section-faq-1 .p-lead{
+    max-width: 1000px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+
+#section-faq-1 h1{
+    max-width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+h3 {
+  font-size: 1.2rem;      
+  line-height: 1.6;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+
+@media (min-width: 640px) {
+    h3 {
+        font-size: 1.3rem;  
+  }
+}
+
+#section-faq-1 p{
+    margin-bottom: 30px;
+}

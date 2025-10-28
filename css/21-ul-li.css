@@ -1,0 +1,14 @@
+.ul-entry-1{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+
+.ul-entry-1 li{
+    font-size: 18px;
+}
+
+.ul-entry-1-emojis li{
+    font-size: 18px;
+    list-style-type: none;
+}

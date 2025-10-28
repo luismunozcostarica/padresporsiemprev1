@@ -1,0 +1,86 @@
+#section-card-blog-1 {
+    padding-top: 75px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+@media (min-width: 1023px) {
+    #section-card-blog-1 {
+        padding-top: 75px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+
+}
+
+.card-blog-1-container h3{
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: #333;
+}
+
+.card-blog-1-container{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    background-color: #bdf0a8;
+    background-color: transparent;
+    gap: 40px;
+    margin: 0 auto;
+    padding: 0rem;
+    max-width: 1200px;
+}
+
+
+@media (min-width: 1023px) {
+    .card-blog-1-container{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        gap: 40px;
+       margin-bottom: 80px;
+    }
+}
+
+
+.card-blog-1-container .btn-secondary{
+    margin-top: 40px;
+}
+
+@media (min-width: 1023px) {
+    .card-blog-1-container .btn-secondary{
+        margin-top: 0px;
+    }
+}
+
+
+#section-card-service-icon-1 .p-lead{
+    max-width: 1000px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+#section-card-service-icon-1 .section-card-service-icon-1-container .card-service-icon-1{
+    margin-bottom: 40px;
+    margin-left: 0px;
+}
+
+
+#section-card-service-icon-1  .container-flex-center-column{
+    margin-bottom: 20px;
+
+}
